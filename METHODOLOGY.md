@@ -16,10 +16,13 @@ Normalize to IPA before claiming exact matches. Distinguish vowel length, nasali
 Group inherited cognates, equivalent names of the same god, and known borrowings. Related forms can each have a record but do not count as independent global confirmations.
 
 ## Controls and tests
-Retain ordinary words, names outside the targeted sound families, and negative sacred-name examples. Preregister which sequences, distances, semantic categories, sampling rules, and null tests will be used before measuring an excess over chance. Record language/family and distinct-token denominators. Kinbank counts for /an/, /ana/, /anu/, /nana/ and related targets are **pending**, not zero.
+Retain ordinary words, names outside the targeted sound families, and negative sacred-name examples. Preregister which sequences, distances, semantic categories, sampling rules, and null tests will be used before measuring an excess over chance. Record language/family and distinct-token denominators. Researcher-supplied **spelling-based Kinbank counts** are archived as v2 with correction notes. IPA-based counts and a sacred-name enrichment test remain **pending**. See [Kinbank method](data/kinbank_method.md) and [replication gap](data/kinbank_REPRODUCIBILITY.md).
 
 ## Access and ethics
 DOC: a public witness exists, but historical speech permission is not established. COL: public colonial witness; Indigenous access rules not inferred. NAR: concealment is part of a narrative. VAR: ritual restrictions vary by context. None of these labels authorizes publication of nonpublic knowledge. Follow community restrictions and the AIATSIS Code of Ethics.
+
+## Current schema limitations
+The public 83-record CSV now includes 22 fields but remains a partial transcription of the supplied Pass-03 ledger. Empty fields are unknown, not nonmatches or absent attestations. There is no full Pass-04 ledger in the repository. Do not equate a control flag with a balanced statistical sample. The exploratory analysis protocol is in [PREREG.md](PREREG.md), explicitly a draft rather than completed preregistration.
 
 ## Corrections
 Each revision should document the changed field, original source, replacement source, review date, and reason. Publish versioned changes; do not silently retroactively rewrite claimed results.
