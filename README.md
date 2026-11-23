@@ -10,7 +10,10 @@
 
 ## Navigate
 - [Browse the working atlas](docs/index.html) — searchable static front end intended for GitHub Pages.
-- [Index data](data/atlas.csv) — provisional catalog; source-by-source validation pending.
+- [Index data](data/atlas.csv) — 83 provisional rows with expanded research fields, access codes, relationship groups and controls; incomplete source and IPA verification.
+- [Draft analysis registration](PREREG.md) — planning document, not a completed preregistration.
+- [CSV validation script](scripts/validate_atlas.py) and [workflow](.github/workflows/validate.yml) — checks data schema, identifiers and GitHub Pages asset sync.
+- [Kinbank replication gap](data/kinbank_REPRODUCIBILITY.md) — the original calculation script has not been supplied.
 - [Kinbank method and provenance](data/kinbank_method.md) — researcher-supplied v2 baseline; spelling-based only.
 - [Kinbank counts](data/kinbank_counts.csv) and [VNV controls](data/kinbank_vnv_control.csv) — quantitative tables.
 - [Methodology](METHODOLOGY.md) — uniform record schema, collection rules, planned controls.
