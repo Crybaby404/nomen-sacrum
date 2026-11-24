@@ -10,6 +10,7 @@
 
 ## Navigate
 - [Browse the working atlas](docs/index.html) — searchable static front end intended for GitHub Pages.
+- [Phonetic Laboratory](docs/phonetics.html) — inspect supported IPA, sound segments, modern TTS approximations, and import source CSVs locally.
 - [Index data](data/atlas.csv) — 83 provisional rows with expanded research fields, access codes, relationship groups and controls; incomplete source and IPA verification.
 - [Draft analysis registration](PREREG.md) — planning document, not a completed preregistration.
 - [CSV validation script](scripts/validate_atlas.py) and [workflow](.github/workflows/validate.yml) — checks data schema, identifiers and GitHub Pages asset sync.
